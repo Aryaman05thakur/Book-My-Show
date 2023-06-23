@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 6px;
+    background-color: #333545;
+    color: #fff;
+}
+
+.nav .first-left{
+    display: flex;
+    margin-top: 10px;
+}
+
+.first-left input{
+    margin-inline: -120px;
+    width: 560px;
+    height: 35px;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-top: -6px;
+    border-radius: 5px;
+}
+
+.nav img{
+    width: 40%;
+    margin-inline: 26px;
+    margin-top: 0;
+    transform: translate(32px, -11px);
+}
+
+.nav .first-right{
+    display: flex;
+    margin-top: 16px;
+}
+
+.first-right img{
+    width: 20%;
+    transform: translate(-12px , 2px);
+}
+
+.first-right p{
+    margin-inline-start: 22px;
+    font-size: 18px;
+}
+
+.first-right i{
+    margin-inline: 22px;
+    font-size: 22px;
+}
+
+
+.first-right button{
+    margin-inline: 22px;
+    width: 80px;
+    height: 30px;
+    background-color: #F84464;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.second-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: #222539;
+    color: #fff;
+}
+
+.second-nav .second-left{
+    display: flex;
+
+}
+.second-nav .second-right{
+    display: flex;
+}
+
+.second-left p{
+    margin-inline-start: 15px;
+}
+
+.second-right p{
+    margin-inline-start: 15px;
+}
+
+.second-nav p:hover{
+color: #F84464;
+cursor: pointer;
+font-weight: 600;
+}
+
+.main img{
+    width: 100%;
+}
+
+.container h2{
+     padding: 22px 22px 10px 22px;
+}
+
+.container .cards{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.cards img{
+width: 17%;
+margin-block: 15px;
+border-radius: 10px;
+}
+
+.banner img{
+    width: 100%;
+    margin-top: 44px;
+}
+
+.premiere{
+    background-color: #2B3148;
+    color: #fff;
+    padding: 33px;
+    margin-top: 44px;
+}
+
+.footer{
+    background-color: #333545;
+    padding: 33px;
+    margin-top: 44px;
+}
+
+.footer img{
+    width: 15%;
+    margin-left: 40%;
+    margin-bottom: 8%;
+}
+
+.footer .icon{
+    display: flex;
+    justify-content: center;
+}
+
+.icon i{
+    margin-inline-start: 45px;
+    font-size: 35px;
+}
